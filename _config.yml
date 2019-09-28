@@ -2,6 +2,7 @@
 # Site
 
 title: Die Datensprechstunde
+description: In vier Schritten zum datengetrieben Unternehmen.
 url: "https://datensprechstunde.de"
 baseurl:
 google_analytics_key: UA-45212489-3
@@ -9,7 +10,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.svg
+logo: /siteicon.png
 description: Product marketing template for Jekyll.
 author:
   name: Dr. Georg Walther
