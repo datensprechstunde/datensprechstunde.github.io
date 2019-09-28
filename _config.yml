@@ -1,29 +1,28 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: Die Datensprechstunde
+url: "https://datensprechstunde.de"
 baseurl:
-google_analytics_key:
+google_analytics_key: UA-45212489-3
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: /siteicon.svg
 description: Product marketing template for Jekyll.
 author:
-  name:
-  email:
+  name: Dr. Georg Walther
+  email: georgwalther@gmail.com
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name:
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Europe/Berlin
 
 collections:
   staff_members:
