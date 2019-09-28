@@ -19,14 +19,15 @@
 			</script>
 			<script async src='https://www.google-analytics.com/analytics.js'></script>
 		{% endif %}
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 	</head>
 	<body>
-		{% comment %} <header>
+		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="Hydra Logo" width="95" height="33" /></a></div>
+				<div class="company-name"><a href="{{ site.baseurl }}/"><strong>DS</strong></a></div>
 				{% include navigation.html %}
 			</div>
-		</header> {% endcomment %}
+		</header>
 		{{ content }}
 		<footer>
 			<div class="container">
@@ -52,6 +53,26 @@
 				document.body.classList.toggle("nav-open");
 				return false;
 			};
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+		<script>
+		window.cookieconsent.initialise({
+		"palette": {
+			"popup": {
+			"background": "#237afc"
+			},
+			"button": {
+			"background": "#fff",
+			"text": "#237afc"
+			}
+		},
+		"content": {
+			"message": "Diese Webseite verwendet Cookies um Ihnen diese Seite optimal darstellen zu können. Bei Verwendung dieser Seite stimmen Sie dem Einsatz von Cookies zu.",
+			"dismiss": "Danke!",
+			"link": "Datenschutzbestimmungen",
+			"href": "https://datensprechstunde.de/impressum/"
+		}
+		});
 		</script>
 	</body>
 </html>
