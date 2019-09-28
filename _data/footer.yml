@@ -37,7 +37,7 @@
   #   link: https://youtube.com/cloudcannon/
   #   social_icon: YouTube
   #   new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
+  # - name: RSS
+  #   link: /feed.xml
+  #   social_icon: RSS
+  #   new_window: false
