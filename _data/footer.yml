@@ -9,8 +9,8 @@
   #   link: /contact/
     - name: Impressum
       link: /impressum/
-    - name: Datenprodukte
-      link: /products/
+    # - name: Datenprodukte
+    #   link: /products/
 - links:
   # - name: Login
   #   link: /
