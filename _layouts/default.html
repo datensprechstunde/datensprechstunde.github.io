@@ -28,7 +28,9 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><strong>DS</strong></a></div>
+				{% if page.url != "/" %}
+					<div class="company-name"><a href="{{ site.baseurl }}/"><strong>Die Datensprechstunde</strong></a></div>
+				{% endif %}
 				{% comment %} {% include navigation.html %} {% endcomment %}
 			</div>
 		</header>
