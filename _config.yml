@@ -10,7 +10,10 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /images/portrait.png
-description: In vier Schritten zum datengetriebenen Unternehmen
+description: >
+  Data Science, Machine Learning, maschinelles Lernen,
+  Deep Learning, Artifical Intelligence, künstliche Intelligenz,
+  und Big Data für Industrie und Mittelstand.
 lang: de_DE
 author:
   name: Dr. Georg Walther
