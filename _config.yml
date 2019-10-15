@@ -9,15 +9,22 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: In vier Schritten zum datengetriebenen Unternehmen.
+logo: /images/portrait.png
+description: In vier Schritten zum datengetriebenen Unternehmen
+lang: de_DE
 author:
   name: Dr. Georg Walther
   email: georgwalther@gmail.com
-  twitter: # twitter username without the @ symbol
+  twitter: dataconsultai
+  picture: /images/portrait.png
+twitter:
+  username: dataconsultai
+  card: summary_large_image
 social:
-  name:
+  name: Dr. Georg Walther
   links:
+    - https://www.linkedin.com/in/georgwalther/
+    - https://twitter.com/dataconsultai
 
 # -----
 # Build
